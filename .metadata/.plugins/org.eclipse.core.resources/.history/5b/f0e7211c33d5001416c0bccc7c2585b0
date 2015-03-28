@@ -1,0 +1,26 @@
+package stationBL;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class FuelStock {
+	private Double maxCapacity;
+	private Double currentCapacity;
+	
+	public double getfuelAmount()
+	{
+		return currentCapacity;
+	}
+	
+	public void pumpFuel(double pumpAmount)
+	{
+		currentCapacity-=pumpAmount;
+	}
+	
+	
+	public String toString(){
+	return "Fuel maxCapacity=" + maxCapacity +" currentCapacity=" + currentCapacity;
+	}
+	
+	
+}

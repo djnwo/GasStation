@@ -1,0 +1,7 @@
+package stationBL;
+
+public class Car {
+	boolean wantCleaning;
+    int id;
+    
+}

@@ -1,0 +1,25 @@
+package runner;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+
+import stationBL.GasStation;
+
+public class program {
+
+	public static void main(String[] args) throws JAXBException, FileNotFoundException {
+		JAXBContext context = JAXBContext.newInstance(GasStation.class);
+		Marshaller marshal=context.createMarshaller();
+		marshal.marshal(new GasStation(),new FileOutputStream("test1.xml"));
+		//Unmarshaller unMarshaller = context.createUnmarshaller();
+		//GasStation param = (GasStation) unMarshaller.unmarshal(new FileInputStream("test.xml"));
+		
+	}
+
+}
