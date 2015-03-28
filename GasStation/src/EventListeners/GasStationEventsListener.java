@@ -1,0 +1,12 @@
+package EventListeners;
+
+import stationBL.Car;
+import stationBL.FuelPump;
+
+public interface GasStationEventsListener {
+	void addcar(int theCarid);
+	void addCarToPump(Car theCar, FuelPump PumpID);
+	void addCarToWash(Car theCar);
+	void fillTheMainPump();
+	void closeTheDay();
+}
