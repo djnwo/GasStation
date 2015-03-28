@@ -1,0 +1,15 @@
+package runner;
+
+public class FuelStock {
+	private double fuelAmount;
+	
+	public double getfuelAmount()
+	{
+		return fuelAmount;
+	}
+	
+	public double pumpFuel(double pumpAmount)
+	{
+		fuelAmount-=pumpAmount;
+	}
+}
