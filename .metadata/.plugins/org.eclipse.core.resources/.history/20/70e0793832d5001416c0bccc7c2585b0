@@ -1,0 +1,25 @@
+package stationBL;
+
+import java.util.LinkedList;
+
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
+
+public class GasStation {
+	public FuelStock MainFuelPool;
+	public LinkedList<FuelPump> pumps;
+	public WashService CleaningService;
+	public int numOfPumps;
+	public float pricePerLiter;
+	
+	public GasStation()
+	{
+	/*	MainFuelPool=new FuelStock();
+		pumps = new LinkedList<FuelPump>();
+		pumps.add(new FuelPump());
+		CleaningService = new WashService();
+		numOfPumps=4;
+		pricePerLiter=5.56f;*/
+	}
+}

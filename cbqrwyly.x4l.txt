@@ -1,0 +1,163 @@
+﻿Merge remote-tracking branch 'origin/master'
+
+Conflicts:
+	.metadata/.mylyn/.tasks.xml.zip
+	.metadata/.mylyn/tasks.xml.zip
+	.metadata/.plugins/org.eclipse.core.resources/.projects/GasStation/.markers.snap
+	.metadata/.plugins/org.eclipse.core.resources/.projects/GasStation/.syncinfo.snap
+	.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.markers.snap
+	.metadata/.plugins/org.eclipse.core.resources/.projects/RemoteSystemsTempFiles/.syncinfo.snap
+	.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap
+	.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+	.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+	.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+	.metadata/.plugins/org.eclipse.jdt.core/3245014801.index
+	.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png
+	.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/2.png
+	.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/3.png
+	GasStation/src/stationBL/Car.java
+	GasStation/src/stationBL/GasStation.java
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 2 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/0/b039634a34d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/11/103eddae37d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/19/f01f5ca82ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/1b/1034950731d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/1b/602797a336d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/20/001c6cf133d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/20/70e0793832d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/20/f0292a1031d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/21/00255db638d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/21/c00c843e32d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/25/8084b4b138d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/25/e098348435d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/27/4025b77633d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/29/30cc60872dd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/29/d05d28ba38d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/2e/d0538db82ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/3/40e189e02bd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/30/1027f28436d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/34/00841b243ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/3a/4061417c35d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/3f/b052b6143ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/3f/b0f6b10a2cd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/40/905a4ccf38d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/43/900b0dad2fd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/43/90e725533ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/47/9051806036d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/4c/d05220cd38d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/4d/a0b715243ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/5/300de1142fd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/53/501a84a82ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/56/b00934fd30d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/57/b01259a82ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/5b/f0e7211c33d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/5f/303c35302cd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/62/809faeb033d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/62/b0bfc0392fd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/63/c0d94a7733d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/64/a00ef61930d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/65/3039009c39d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/66/50c35a4a36d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/68/803eed0533d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/6d/70feca6536d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/6f/a0117eae38d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/7/d0f972f133d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/70/10bce90533d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/73/208cb80836d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/75/30cf9a8d3ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/76/007277012cd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/78/90588e0130d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/78/d0a2a1a92bd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/7b/a0ee98a738d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/7c/601a251639d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/85/20d5c7e839d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/86/90f0bf1737d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/88/7042a62133d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/91/100f8b2231d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/91/4095bfab35d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/97/005c89392fd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/9f/50bf8d2f31d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/a0/70d986a82ad5001416c0bccc7c2585b0
+#	renamed:    GasStation/src/runner/program.java -> .metadata/.plugins/org.eclipse.core.resources/.history/a2/d0b360a82ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/a7/9021791e37d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ae/102a625336d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/b0/c0ef441337d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/b3/003e37fd30d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/b5/c0bcf20533d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/b8/50b49c3536d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/b9/d0f4bf2b39d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/be/a08fe4142fd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/c3/10f21dd535d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/c3/a0ee68fd2bd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/c5/408f0c4037d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/cc/3067086535d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/cc/c003f82f3ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ce/8010b1b033d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/d/b0c8cd3531d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/d5/c06dedf72bd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/d8/e0eab31d39d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/d9/3083a63636d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/da/d099833b39d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/dd/d0aeb92739d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/df/f08369f133d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/e0/70665c2c3ad5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/e3/a0abb99837d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/e6/60ba0aa038d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ec/102f228b2fd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ec/d00ee9972fd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ee/108607a038d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ee/b0b2045334d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/ee/c0ceba7633d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f0/f0ada19037d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f1/c0d94b4a37d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f2/208554c935d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f4/d051434832d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f5/809fd55936d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f8/504c73c32fd5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/f9/002fc57633d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.history/fe/3025e02237d5001416c0bccc7c2585b0
+#	new file:   .metadata/.plugins/org.eclipse.core.resources/.projects/GasStation/.indexes/e4/48/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/GasStation/.indexes/e4/82/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.projects/GasStation/.indexes/e4/d0/history.index
+#	modified:   .metadata/.plugins/org.eclipse.core.resources/.snap
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+#	modified:   .metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+#	modified:   .metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/10.png
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/11.png
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/12.png
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/4.png
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/5.png
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/6.png
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/7.png
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/8.png
+#	new file:   .metadata/.plugins/org.eclipse.jdt.ui/jdt-images/9.png
+#	modified:   .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/GasStation/2015/3/13/refactorings.history
+#	modified:   .metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/GasStation/2015/3/13/refactorings.index
+#	new file:   .metadata/.plugins/org.eclipse.wst.xml.core/default_catalog.xml
+#	new file:   .metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml
+#	modified:   GasStation/src/runner/program.java
+#	modified:   GasStation/src/stationBL/FuelStock.java
+#	new file:   GasStation/src/stationBL/WantsFuel.java
+#	modified:   GasStation/src/stationBL/WashService.java
+#	new file:   GasStation/test.xml
+#	new file:   GasStation/test1.xml
+#
+

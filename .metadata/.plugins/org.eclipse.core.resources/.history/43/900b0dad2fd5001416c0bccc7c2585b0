@@ -1,0 +1,17 @@
+package stationBL;
+
+public class FuelStock {
+	
+	private Double maxCapacity;
+	private Double currentCapacity;
+	
+	public double getfuelAmount()
+	{
+		return currentCapacity;
+	}
+	
+	public void pumpFuel(double pumpAmount)
+	{
+		currentCapacity-=pumpAmount;
+	}
+}

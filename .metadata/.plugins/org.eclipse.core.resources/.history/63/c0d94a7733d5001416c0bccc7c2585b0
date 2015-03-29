@@ -1,0 +1,8 @@
+package stationBL;
+
+public class WashService {
+	private int numOfTeams;
+	private float price;
+	private int secondsPerAutoClean;
+	
+}

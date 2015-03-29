@@ -1,0 +1,17 @@
+package stationBL;
+
+import java.util.LinkedList;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+public class GasStation {
+	private FuelStock MainFuelPool;
+	private LinkedList<FuelPump> pumps;
+	private WashService CleaningService;
+	private int numOfPumps;
+	private float pricePerLiter;
+	
+	public GasStation()
+	{
+	}
+}

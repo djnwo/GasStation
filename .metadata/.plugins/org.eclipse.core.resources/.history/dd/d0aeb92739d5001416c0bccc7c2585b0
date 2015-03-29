@@ -1,0 +1,33 @@
+package stationBL;
+
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElements;
+import javax.xml.bind.annotation.XmlRootElement;
+@XmlRootElement
+public class Car {
+	@XmlAttribute
+	public boolean wantCleaning;
+	@XmlAttribute
+	public int id;
+	public WantsFuel wantsfuel;
+	@Override
+	public String toString() {
+		return "Car [wantCleaning=" + wantCleaning + ", id=" + id + "]";
+	}
+
+	class WantsFuel {
+		@XmlAttribute
+		public float numOfLiters;
+		@XmlAttribute
+		public int pumpNum;
+		@Override
+		public String toString() {
+			return "WantsFuel [numOfLiters=" + numOfLiters + ", pumpNum="
+					+ pumpNum + "]";
+		}
+		
+		
+    }
+    
+}
