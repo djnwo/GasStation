@@ -2,4 +2,12 @@ package stationBL;
 
 public class FuelPump {
 
+	int id;
+
+	public FuelPump(int id) {
+		this.id = id;
+	}
+	
+	
+
 }

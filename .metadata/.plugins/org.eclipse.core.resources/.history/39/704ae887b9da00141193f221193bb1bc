@@ -5,7 +5,7 @@ import stationBL.FuelPump;
 
 public interface GasStationEventsListener {
 	void addcar(int theCarid);
-	void addCarToPump(Car theCar, FuelPump PumpID);
+	void addCarToPump(Car theCar, FuelPump thepump);
 	void addCarToWash(Car theCar);
 	void fillTheMainPump();
 	void closeTheDay();
