@@ -1,44 +1,32 @@
 package stationBL;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.List;
+import java.util.Vector;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAnyElement;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlRootElement;
+import EventListeners.GasStationEventsListener;
 
-@XmlRootElement
 public class GasStation {
-	@XmlElement
-	public FuelStock MainFuelPool;
 	
-	//public LinkedList<FuelPump> pumps;
+	private FuelStock fuelStock;
+	private LinkedList<FuelPump> pumps;
+	private Vector<GasStationEventsListener> listeners;
+
 	
-	@XmlElement
-	public WashService CleaningService;
+	public GasStation(){
 	
-	@XmlElementWrapper(name = "Cars")
-	@XmlElement(name = "Car")
-	public List<Car> cars=null;
-	
-	@XmlAttribute
-	public int numOfPumps;
-	@XmlAttribute
-	public float pricePerLiter;
-	
-	public GasStation()
-	{
 	}
 
-	public String printCars() {
-		String out="";
-		for(Car c : cars)
-			out+=" "+c.toString();
-		return out;
+
+	public void addNewCar(int theCarid) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+
+
+	public void registerListener(GasStationEventsListener listener) {
+		listeners.add(listener);
+		
 	}
 }
