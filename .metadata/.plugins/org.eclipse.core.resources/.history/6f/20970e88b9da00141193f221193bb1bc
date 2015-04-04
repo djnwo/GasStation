@@ -1,0 +1,17 @@
+package stationBL;
+
+public class FuelPump {
+
+	private int id;
+
+	public FuelPump(int id) {
+		this.id = id;
+	}
+	
+	
+	public int getFuelPumpID()
+	{
+		return this.id;
+	}
+	
+}

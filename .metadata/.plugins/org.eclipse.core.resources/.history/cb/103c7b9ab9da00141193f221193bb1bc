@@ -1,0 +1,8 @@
+package EventListeners;
+
+import GasStationBL.GasStation;
+
+public interface GasStationUiEventListener {
+	void getStatistic(GasStation theStation);
+
+}

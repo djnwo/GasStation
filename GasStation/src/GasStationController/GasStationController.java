@@ -1,10 +1,7 @@
 package GasStationController;
-import EventListeners.GasStationEventsListener;
-import EventListeners.GasStationUiEventListener;
-import stationBL.Car;
-import stationBL.FuelPump;
-import stationBL.GasStation;
-import GasStation.views.AbstractGasStationView;
+import GasStationBL.*;
+import GasStationEvents.*;
+import GasStationViews.AbstractGasStationView;
 
 public class GasStationController implements GasStationUiEventListener,GasStationEventsListener  {
 
@@ -27,7 +24,7 @@ public class GasStationController implements GasStationUiEventListener,GasStatio
 
 	@Override
 	public void addCarToPump(Car theCar, FuelPump thePump) {
-		theStationModel.addToPump(theCar.ID , FuelPump.id);
+		theStationModel.addToPump(theCar.getCarID() , thePump.getFuelPumpID());
 	}
 
 	@Override
